@@ -13,6 +13,8 @@ export default function Calculator() {
     setCalcState({ total: calcState.total + value, previousTotal: calcState.total});
   };
 
+  
+
   return (
     <div className="calculator">
       <p>
